@@ -1,17 +1,16 @@
 import java.net.URI
 
 plugins {
-    id 'idea'
-    //id 'application'
-    id 'java'
-    id 'maven-publish'
-    id 'com.google.protobuf' version '0.9.4'
-    id "com.github.ben-manes.versions" version "0.49.0"
-    id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id("idea")
+    id("java")
+    id("maven-publish")
+    id("com.google.protobuf") version "0.9.4"
+    id("com.github.ben-manes.versions") version "0.49.0"
+    id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group 'com.tencent.bk.sdk'
-version '1.0-SNAPSHOT'
+group = "com.tencent.bk.sdk"
+version = "1.0-SNAPSHOT"
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
